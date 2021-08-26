@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="63217" started-at="2021-08-26T23:19:56 EET" finished-at="2021-08-26T23:21:00 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@5a1c0542]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:tests.TestBase@396f6598]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="63217" started-at="2021-08-26T23:19:56 EET" finished-at="2021-08-26T23:21:00 EET">
+      <class name="tests.TestBase">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:tests.TestBase@396f6598]" name="setUpClass" is-config="true" duration-ms="57" started-at="2021-08-26T23:21:00 EET" finished-at="2021-08-26T23:21:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.TestBase@396f6598]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2021-08-26T23:21:00 EET" finished-at="2021-08-26T23:21:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.TestBase -->
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:runner.TestRunner@5a1c0542]" name="startDriver" is-config="true" duration-ms="5812" started-at="2021-08-26T23:19:51 EET" finished-at="2021-08-26T23:19:56 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@5a1c0542]" name="setUpClass" is-config="true" duration-ms="734" started-at="2021-08-26T23:19:57 EET" finished-at="2021-08-26T23:19:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@5a1c0542]" name="feature" duration-ms="22027" started-at="2021-08-26T23:19:57 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-26T23:20:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create New User Account]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@5a1c0542]" name="feature" duration-ms="40100" started-at="2021-08-26T23:20:19 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-26T23:21:00 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cart Checkout scenario]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@5a1c0542]" name="tearDownClass" is-config="true" duration-ms="49" started-at="2021-08-26T23:21:00 EET" finished-at="2021-08-26T23:21:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:runner.TestRunner@5a1c0542]" name="teardown" is-config="true" duration-ms="1472" started-at="2021-08-26T23:21:00 EET" finished-at="2021-08-26T23:21:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
